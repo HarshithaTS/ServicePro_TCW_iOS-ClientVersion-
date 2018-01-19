@@ -1,0 +1,14 @@
+//
+// Prefix header for all source files of the 'ServiceManagement' target in the 'ServiceManagement' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+	
+	
+	#import "Design.h"
+
+// ADD: import barcode reader APIs
+// commented by selvan 8th feb  #import "ZBarSDK.h"
+#endif

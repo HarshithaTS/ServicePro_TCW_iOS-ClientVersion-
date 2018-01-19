@@ -1,0 +1,82 @@
+/* 
+   Localizable.strings
+   ServiceManagement
+
+   Created by Kousik Kumar Ghosh on 09/08/11.
+   Copyright 2011 __MyCompanyName__. All rights reserved.
+ */
+
+
+/*---App delegate -----*/
+"AppDelegate_netChecking_alert_title" = "Errore di connessione di rete!";
+"AppDelegate_netChecking_alert_msg" = "Connessione di rete non è disponibile, \ n è necessario essere connessi a internet per eseguire l'applicazione!";
+"AppDelegate_netChecking_alert_cancel_title" = "respingere";
+"AppDelegate_Skip_button_title" = "Clicca per continuare";
+
+
+/*---Main Menu page (MainMenu)---*/
+ "Main_Menu_title" = "Menu Principale";
+ 
+ //Button Names
+"Service_Order"="servizio d'ordine";
+"Completed_Tasks" = "Attività completate";
+"Van_Stock" = "Van Archivi";
+"Inst.Base_Report" = "Segnala Inst.Base";
+"My_Utilization" = "il mio utilizzo";
+"Billable_S/O" = "Fatturabile S/O";
+
+
+
+
+/*--Service Orders (ServiceOrders)--*/
+"Servic_Orders_title" = "Elenco attività";
+"Servic_Orders_order_task" = "Ordine";
+
+"Servic_Orders_ActionSheet_Choose_Action_title" = "Scegli azione";
+"Servic_Orders_ActionSheet_Choose_Action_Cancel_title" = "respingere";
+"Servic_Orders_ActionSheet_Choose_Action_Edit_task" = "Modifica compito";
+"Servic_Orders_ActionSheet_Choose_Action_Service_Confirmation" = "Conferma servizio";
+"Servic_Orders_ActionSheet_Choose_Action_Task_Location_in_MapView" = "compito Località";
+
+"Servic_Orders_ActionSheet_Order_Task_List_title" = "Ordine L'elenco dei compiti";
+"Servic_Orders_ActionSheet_Order_Task_List_Cancel_title" = "respingere";
+"Servic_Orders_ActionSheet_Order_Task_List_DueDate" = "Per data di scadenza";
+"Servic_Orders_ActionSheet_Order_Task_List_Priority" = "Con priorità";
+"Servic_Orders_ActionSheet_Order_Task_List_Status" = "da Stato";
+"Servic_Orders_ActionSheet_Order_Task_List_Subject" = "Per oggetti";
+
+
+/*--Edit Task (EditTask)--*/
+"Edit_Task_title" = "Modifica compito";
+
+"Edit_Task_SaveTask_alert_title"="avvertimento";
+"Edit_Task_SaveTask_alert_msg"="Volete salvare il vostro compito!";
+"Edit_Task_SaveTask_alert_Cancel_title"="no";
+"Edit_Task_SaveTask_alert_Other_title"="sì";
+
+"Edit_Task_customAlert_msg" = "La preghiamo di attendere ....";
+
+"Edit_Task_TaskUpdation_alert_title"="Compito Errore di aggiornamento!";
+"Edit_Task_TaskUpdation_alert_msg"="L'attività specificata è stata selezionata, \ n non aggiornato nel server SAP, a causa di qualche errore!";
+"Edit_Task_TaskUpdation_alert_Cancel_title"="respingere";
+
+"Edit_Task_NetworkConnection_alert_title"="Errore di connessione di rete!";
+"Edit_Task_NetworkConnection_alert_msg"="Connessione di rete non è disponibile, \ n è necessario essere connessi a internet per aggiornare il compito!";
+"Edit_Task_NetworkConnection_alert_Cancel_title"="respingere";
+
+"Edit_Task_TaskUpdation_Success_alert_title" = "Aggiornamento compito di successo";
+"Edit_Task_TaskUpdation_Success_alert_Cancel_title" = "respingere";
+
+"Edit_Task_Label_Status"="stato:";
+"Edit_Task_Label_Select_a_Reason"="Seleziona una Ragione:";
+"Edit_Task_Label_Enter_the_Reason"="Inserire la Ragione:";
+"Edit_Task_Label_Priority"="priorità:";
+"Edit_Task_Label_SetType"="Impostare il tipo di";    // Added by sahana on sep 27 2016
+"Edit_Task_Label_Due"="dovuto:";
+"Edit_Task_Label_Time_Zone"="Fuso orario:";
+"Edit_Task_Label_Category"="categoria:";
+
+
+/*--Task Address Detail (ShowDetailTaskLocation)--*/
+"ShowDetailTaskLocation_Task_Address_Details" = "Indirizzo compito Dettagli";
+

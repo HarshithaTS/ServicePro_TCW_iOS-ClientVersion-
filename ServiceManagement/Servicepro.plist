@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DiagnosePopup</key>
+	<true/>
+	<key>Version</key>
+	<string>2.4.3</string>
+	<key>Edition</key>
+	<string>iOS</string>
+	<key>BUILDNAME</key>
+	<string>TCW-PRD-ServicePro-20171013.ipa</string>
+	<key>SERVICEURL_PRD</key>
+	<string>http://TCW-MAS01.ThompsonCreek.com:8300/sap/bc/srt/rfc/sap/z_gssmwfm_hndl_evntrqst00/300/z_gssmwfm_hndl_evntrqst00/z_gssmwfm_hndl_evntrqst00</string>
+	<key>SERVICEURL_QA</key>
+	<string>http://TCW-MAS02.ThompsonCreek.com:8200/sap/bc/srt/rfc/sap/z_gssmwfm_hndl_evntrqst00/200/z_gssmwfm_hndl_evntrqst00/z_gssmwfm_hndl_evntrqst00_bndng</string>
+</dict>
+</plist>

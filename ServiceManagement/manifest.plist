@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>URL</key>
+	<string>https://www.hightail.com/download/OGhmRkJheFh6NFBOTzhUQw</string>
+	<key>display-image</key>
+	<string>https://www.hightail.com/download/OGhmRkJheFhOQnpSc01UQw</string>
+	<key>full-size-image</key>
+	<string>https://www.hightail.com/download/OGhmRkJheFh6NEpDaDhUQw</string>
+	<key>bundle-version</key>
+	<string>2.4.3</string>
+	<key>title</key>
+	<string>ServicePro</string>
+</dict>
+</plist>

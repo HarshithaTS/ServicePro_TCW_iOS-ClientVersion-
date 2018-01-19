@@ -1,0 +1,82 @@
+/* 
+   Localizable.strings
+   ServiceManagement
+
+   Created by Kousik Kumar Ghosh on 09/08/11.
+   Copyright 2011 __MyCompanyName__. All rights reserved.
+ */
+
+
+/*---App delegate -----*/
+"AppDelegate_netChecking_alert_title" = "Erreur de connexion réseau!";
+"AppDelegate_netChecking_alert_msg" = "Connexion réseau n'est pas disponible maintenant, \ n vous devez être connecté à Internet pour exécuter l'application!";
+"AppDelegate_netChecking_alert_cancel_title" = "rejeter";
+"AppDelegate_Skip_button_title" = "Cliquez pour Continuer";
+
+
+/*---Main Menu page (MainMenu)---*/
+ "Main_Menu_title" = "Menu Principal";
+ 
+ //Button Names
+"Service_Order"="Ordre du service";
+"Completed_Tasks" = "Tâches achevées";
+"Van_Stock" = "Van Stock";
+"Inst.Base_Report" = "Signaler Inst.Base";
+"My_Utilization" = "Mon utilisation";
+"Billable_S/O" = "Facturables S/O";
+
+
+
+
+/*--Service Orders (ServiceOrders)--*/
+"Servic_Orders_title" = "Liste des tâches";
+"Servic_Orders_order_task" = "Pour";
+
+"Servic_Orders_ActionSheet_Choose_Action_title" = "Choisissez l'action";
+"Servic_Orders_ActionSheet_Choose_Action_Cancel_title" = "rejeter";
+"Servic_Orders_ActionSheet_Choose_Action_Edit_task" = "Modifier la tâche";
+"Servic_Orders_ActionSheet_Choose_Action_Service_Confirmation" = "Confirmation service";
+"Servic_Orders_ActionSheet_Choose_Action_Task_Location_in_MapView" = "Lieu de travail";
+
+
+"Servic_Orders_ActionSheet_Order_Task_List_title" = "Commander La liste des tâches";
+"Servic_Orders_ActionSheet_Order_Task_List_Cancel_title" = "rejeter";
+"Servic_Orders_ActionSheet_Order_Task_List_DueDate" = "Par date d'échéance";
+"Servic_Orders_ActionSheet_Order_Task_List_Priority" = "En priorité";
+"Servic_Orders_ActionSheet_Order_Task_List_Status" = "par statut";
+"Servic_Orders_ActionSheet_Order_Task_List_Subject" = "par sujet";
+
+
+/*--Edit Task (EditTask)--*/
+"Edit_Task_title" = "Modifier la tâche";
+
+"Edit_Task_SaveTask_alert_title"="Attention";
+"Edit_Task_SaveTask_alert_msg"="Voulez-vous sauvegarder votre travail!";
+"Edit_Task_SaveTask_alert_Cancel_title"="Aucun";
+"Edit_Task_SaveTask_alert_Other_title"="Oui";
+
+"Edit_Task_customAlert_msg" = "S'il vous plaît attendez ....";
+
+"Edit_Task_TaskUpdation_alert_title"="Erreur mise à jour de travail!";
+"Edit_Task_TaskUpdation_alert_msg"="La tâche spécifiée que vous avez sélectionné, \ n n'est pas à jour dans le serveur SAP, en raison de certaines erreurs!";
+"Edit_Task_TaskUpdation_alert_Cancel_title"="rejeter";
+
+"Edit_Task_NetworkConnection_alert_title"="Erreur de connexion réseau!";
+"Edit_Task_NetworkConnection_alert_msg"="Connexion réseau n'est pas disponible maintenant, \ n vous devez être connecté à Internet pour mettre à jour la tâche!";
+"Edit_Task_NetworkConnection_alert_Cancel_title"="rejeter";
+
+"Edit_Task_TaskUpdation_Success_alert_title" = "Tâche Mettre à jour réussie";
+"Edit_Task_TaskUpdation_Success_alert_Cancel_title" = "rejeter";
+
+"Edit_Task_Label_Status"="Statut:";
+"Edit_Task_Label_Select_a_Reason"="Sélectionnez une raison:";
+"Edit_Task_Label_Enter_the_Reason"="Entrez la raison:";
+"Edit_Task_Label_Priority"="priorité:";
+"Edit_Task_Label_SetType"="Set Type";    // Added by sahana on sep 27 2016
+"Edit_Task_Label_Due"="En raison:";
+"Edit_Task_Label_Time_Zone"="Fuseau horaire:";
+"Edit_Task_Label_Category"="Catégorie:";
+
+
+/*--Task Address Detail (ShowDetailTaskLocation)--*/
+"ShowDetailTaskLocation_Task_Address_Details" = "Détails adresse de travail";

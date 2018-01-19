@@ -1,0 +1,275 @@
+/* 
+   Localizable.strings
+   ServiceManagement
+
+   Created by Kousik Kumar Ghosh on 09/08/11.
+   Copyright 2011 __MyCompanyName__. All rights reserved.
+ */
+
+/*common*/
+"Servic_Orders_back" = "Back";
+"Servic_Orders_Main_back"="Main Menu";
+"Setting_Page" = "Setting";
+
+
+/*Custom Alert Messages  */
+"Comunicating_sap" = "Contacting Server...";
+"Fetching_Service_Task" = "Fetching Service Tasks...";
+"Parsing_data" = "Compiling...";
+"Fetching_Context" = "Fetching Context...";
+"Geting_Response_From_SAP"= "Compiling...";
+"Loading_View" = "Rendering...";
+
+
+
+/*---App delegate -----*/
+"AppDelegate_taskChecking_alert_title" = "Task Response!";
+"AppDelegate_taskChecking_alert_msg" = "No Tasks Found! ";
+"AppDelegate_taskChecking_alert_cancel_title" = "Dismiss";
+
+/*---App delegate -----*/
+"AppDelegate_dataChecking_alert_title" = "Transfer Task Response!";
+"AppDelegate_dataChecking_alert_msg" = "Transfer Task Failed! ";
+"AppDelegate_dataChecking_alert_cancel_title" = "Dismiss";
+
+
+
+/*---App delegate -----*/
+"AppDelegate_response_alert_title" = "Information";
+"AppDelegate_response_error_alert_title" = "Error";
+"AppDelegate_netChecking_alert_title" = "Network Connection Error!";
+"AppDelegate_netChecking_alert_msg" = "Found Net connection Problem,\n Offline Mode Activated! ";
+"AppDelegate_netChecking_alert_cancel_title" = "Ok";
+"AppDelegate_Skip_button_title" = "Click to Continue";
+
+
+"AppDelegate_sapChecking_alert_title" = "SAP Connection Error!";
+"AppDelegate_sapChecking_alert_msg" = "Found SAP Server Connection Problem\n Offline Mode Activated!";
+"AppDelegate_sapChecking_alert_cancel_title" = "Ok";
+
+
+/*---Main Menu page (MainMenu)---*/
+ "Main_Menu_title" = "ServicePro";
+ 
+ //Button Names
+"Service_Order"="Service Order";
+"Completed_Tasks" = "Completed Tasks";
+"Van_Stock" = "Van Stock";
+"Inst.Base_Report" = "Inst.Base Report";
+"My_Utilization" = "My Utilization";
+"Billable_S/O" = "Billable S/O";
+
+//Service Order - Table Header Title
+"Service_Order_Table_Header_Title_Priority" = "Pri";
+"Service_Order_Table_Header_Title_Status" = "Stat";
+"Service_Order_Table_Header_Title_Start_Date" = "Start Date";
+"Service_Order_Table_Header_Title_CustL" = "Cust. Location";
+"Service_Order_Table_Header_Title_EstA" = "Est. Arrival";
+"Service_Order_Table_Header_Title_ServiceD" = "Service Doc.";
+"Service_Order_Table_Header_Title_CName" = "Contact Name";
+"Service_Order_Table_Header-Title_PDesc" = "Description";
+
+
+
+
+/*--Service Orders (ServiceOrders)--*/
+"Servic_Orders_title" = "Service tasks for you";
+"Servic_Orders_Menu" = "Menu";
+
+
+"Servic_Orders_ActionSheet_Choose_Action_title" = "Choose Action";
+"Servic_Orders_ActionSheet_Choose_Action_Cancel_title" = "Cancel";
+"Servic_Orders_ActionSheet_Choose_Action_Edit_task" = "Edit task";
+"Servic_Orders_ActionSheet_Choose_Action_Service_Confirmation" = "Service Confirmation";
+"Servic_Orders_ActionSheet_Choose_Action_Service_Transfer" = "Transfer Task";
+"Servic_Orders_ActionSheet_Choose_Action_Task_Location_in_MapView" = "Map Customer";
+"Servic_Orders_ActionSheet_Choose_Action_Entitlements" = "Entitlements";
+"Servic_Orders_ActionSheet_Choose_Action_CaptureImage" = "Capture Image";
+"Servic_Orders_ActionSheet_Choose_Action_AddSignature" = "Add Signature";
+
+
+"Servic_Orders_ActionSheet_Order_Task_List_title" = "Menu";
+"Servic_Orders_ActionSheet_Order_Task_List_Cancel_title" = "Cancel";
+"Servic_Orders_ActionSheet_Order_Task_List_DueDate" = "Sort By Due Date";
+"Servic_Orders_ActionSheet_Order_Task_List_Priority" = "Sort By Priority";
+"Servic_Orders_ActionSheet_Order_Task_List_Status" = "Sort By Status";
+"Servic_Orders_ActionSheet_Order_Task_List_Subject" = "Sort By Subject";
+"Servic_Orders_ActionSheet_Order_Task_List_Rep" = "Task For Other Rep";
+
+
+
+/*--Edit Task (EditTask)--*/
+"Edit_Task_title" = "Service Task";
+"View_Task_title" = "Service Task";
+
+"Edit_Task_SaveTask_alert_title"="Warning";
+"Edit_Task_SaveTask_alert_msg"="Do you want to save your task!";
+"Edit_Task_SaveTask_alert_Cancel_title"="No";
+"Edit_Task_SaveTask_alert_Other_title"="Yes";
+
+"Edit_Task_Reason_alert_title"="Information";
+"Edit_Task_Reason_alert_msg"="Reason should not be blank!";
+"Edit_Task_Reason_alert_Cancel_title"="OK";
+
+
+//"Edit_Task_customAlert_msg" = "Processing...";
+"Edit_Task_customAlert_msg" = "Please wait while Processing...";
+
+
+"Edit_Task_TaskUpdation_alert_title"="Task Update Response!";
+"Edit_Task_TaskUpdation_alert_msg"="The specified task you have selected,\n not Updated in SAP server, due to some Error!";
+"Edit_Task_TaskUpdation_alert_Cancel_title"="OK";
+
+"Edit_Task_NetworkConnection_alert_title"="Network Connection Error!";
+"Edit_Task_NetworkConnection_alert_msg"="Net connection is not available now,\n you need to be connected to the internet to update the task!";
+"Edit_Task_NetworkConnection_alert_Cancel_title"="OK";
+
+"Edit_Task_TaskUpdation_Success_alert_title" = "Task Update Successful";
+"Edit_Task_TaskUpdation_Success_alert_Cancel_title" = "OK";
+
+"Edit_Task_Label_Status"="Status";
+"Edit_Task_Label_Select_a_Reason"="Select a Reason";
+"Edit_Task_Label_Enter_the_Reason"="Enter the Reason";
+"Edit_Task_Label_Priority"="Priority";
+"Edit_Task_Label_SetType"="Set Type";    // Added by sahana on sep 27 2016
+"Edit_Task_Label_Due"="Start Date";
+"Edit_Task_Label_Estimated" = "Estimated Arrival";
+"Edit_Task_Label_Time_Zone"="Time Zone";
+"Edit_Task_Label_Category"="Service Order";
+
+"Edit_Task_Label_serordertype"="Srv. Order Type";
+"Edit_Task_Label_ContactName"= "Contact Name";
+"Edit_Task_Label_ProdDesc"= "Product Desc.";
+"Edit_Task_Label_Serial#"= "Serial#";
+"Edit_Task_Label_InstBaseDesc"= "Inst. Base Desc.";
+"Edit_Task_Label_CompDesc" ="Component Desc.";
+"Edit_Task_Label_Telno"= "Tel. No.";
+"Edit_Task_Label_Atelno"= "Alt. Tel. No.";
+"Edit_Task_Label_Note" = "Field Note";
+
+
+"Edit_Task_Label_Result" = "Result";
+"Edit_Task_Label_Result_Value" = "Result Type";
+"Edit_Task_Label_Contract" = "Contract Value";
+
+
+/*Confirmation activity*/
+
+"Confirmation_menu_newservice" = "Add new service";
+"Confirmation_menu_captureimage" = "Capture Image";
+"Confirmation_menu_signature" = "Add Signature";
+"Confirmation_menu_newspares" = "Add new Spares";
+
+
+
+"Activity_title" = "Activity";
+"Confirmation_Activity_Label_Activity" ="Activity";
+"Confirmation_Activity_Label_DurationHrs" = "Duration Hrs";
+"Confirmation_Activity_Label_StartTime" = "Start Dt Time";
+"Confirmation_Activity_Label_EndDateTime" = "End Dt Time";
+"Confirmation_Activity_Label_Timezone" = "Time Zone";
+"Confirmation_Activity_Label_Notes" = "Notes";
+"Confirmation_Activity_Button_Label_Done" = "Done";
+
+"Edit_Activity_Updation_Success_alert_title" = "Activity Update Successful";
+"Edit_Activity_Updation_Success_alert_Cancel_title" = "OK";
+"Edit_Activity_Updation_Failed_alert_title" = "Activity Updation Failed";
+"Edit_Activity_Updation_Failed_alert_Cancel_title" = "OK";
+
+"Edit_Activity_Delete_Success_alert_title" = "Activity Deleted Successful";
+"Edit_Activity_Delete_Success_alert_Cancel_title" = "OK";
+"Edit_Activity_Delete_Failed_alert_title" = "Activity Deletion Failed";
+"Edit_Activity_Delete_Failed_alert_Cancel_title" = "OK";
+"Edit_Activity_Delete_Norecord_alert_title" = "Default activity can't be deleted";
+"Edit_Activity_Delete_Norecord_alert_Cancel_title" = "OK";
+
+
+
+
+
+/*Confirmation Fault Code*/
+"Fault_title" = "Fault";
+"Fault_Label_Symptom_Group" = "Symptom Grp";
+"Fault_Label_Symptom_Code" = "Symptom Code";
+"Fault_Label_Symptom_Desc" = "Symptom Desc";
+
+"Fault_Label_Problem_Group" = "Problem Grp";
+"Fault_Label_Problem_Code" = "Problem Code";
+"Fault_Label_Problem_Desc" = "Problem Desc";
+
+"Fault_Label_Cause_Group" = "Cause Grp";
+"Fault_Label_Cause_Code" = "Cause Code";
+"Fault_Label_Cause_Desc" = "Cause Desc";
+
+"Edit_Fault_Updation_Success_alert_title" = "Fault Update Successful";
+"Edit_Fault_Updation_Success_alert_Cancel_title" = "OK";
+"Edit_Fault_Updation_Failed_alert_title" = "Fault Updation Failed";
+"Edit_Fault_Updation_Failed_alert_Cancel_title" = "OK";
+
+"Edit_Fault_Delete_Success_alert_title" = "Fault Deleted Successful";
+"Edit_Fault_Delete_Success_alert_Cancel_title" = "OK";
+"Edit_Fault_Delete_Failed_alert_title" = "Fault Deletion Failed";
+"Edit_Fault_Delete_Failed_alert_Cancel_title" = "OK";
+
+
+
+
+/*Confirmation Spares */
+"Spares_title" = "Spares";
+"Spares_Label_Material_Id" = "Material Id";
+"Spares_Label_Material_Desc" = "Mat.Desc";
+"Spares_Label_Material_Qty" = "Qty";
+"Spares_Label_Material_Unit" = "Unit";
+"Spares_Label_Material_Other_Unit" = "Other Unit";
+"Spares_Label_Material_Serial" = "Serial#";
+"Spares_Label_Material_Done" = "Done";
+
+"Edit_Spares_Updation_Success_alert_title" = "Spares Update Successful";
+"Edit_Spares_Updation_Success_alert_Cancel_title" = "OK";
+"Edit_Spares_Updation_Failed_alert_title" = "Spares Updation Failed";
+"Edit_Spares_Updation_Failed_alert_Cancel_title" = "OK";
+
+"Edit_Spares_Delete_Success_alert_title" = "Spares Deleted Successful";
+"Edit_Spares_Delete_Success_alert_Cancel_title" = "OK";
+"Edit_Spares_Delete_Failed_alert_title" = "Spares Deletion Failed";
+"Edit_Spares_Delete_Failed_alert_Cancel_title" = "OK";
+
+
+"Service_Cnf_Delete_alert_title"="Warning";
+"Service_Cnf_Delete_alert_msg"="Are you sure want to delete?";
+"Service_Cnf_Delete_alert_Cancel_title"="No";
+"Service_Cnf_Delete_alert_Other_title"="Yes";
+
+
+
+/*--Task Address Detail (ShowDetailTaskLocation)--*/
+"ShowDetailTaskLocation_Task_Address_Details" = "Task Address Details";
+
+/*--Completed Task--*/
+"Completed_title" = "Task List";
+"Completed_order_task" = "Sort";
+
+"Completed_ActionSheet_Choose_Action_title" = "Choose Action";
+"Completed_ActionSheet_Choose_Action_Cancel_title" = "OK";
+"Completed_ActionSheet_Choose_Action_Edit_task" = "Edit task";
+"Completed_ActionSheet_Choose_Action_Service_Confirmation" = "Service Confirmation";
+"Completed_ActionSheet_Choose_Action_Task_Location_in_MapView" = "Task Location";
+
+
+"Completed_ActionSheet_Order_Task_List_title" = "Sort The Task List";
+"Completed_ActionSheet_Order_Task_List_Cancel_title" = "OK";
+"Completed_ActionSheet_Order_Task_List_Date" = "By Date";
+"Completed_ActionSheet_Order_Task_List_Soid" = "By SO ID";
+"Completed_ActionSheet_Order_Task_List_Customer" = "By Customer";
+
+"Completed_Task_Label_Type" = "Type";
+"Completed_Task_Label_ID" = "ID";
+"Completed_Task_Label_Date" = "Date";
+"Completed_Task_Label_Partner" = "Customer";
+"Completed_Task_Label_Name" = "Name";
+"Completed_Task_Label_desc" = "Description";
+"Completed_Task_Label_periority" = "Periority";
+"Completed_Task_Label_Contact" = "Cont.Person";
+"Completed_Task_Label_Status" = "Status";
+
+
